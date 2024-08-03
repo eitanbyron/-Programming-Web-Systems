@@ -1,0 +1,35 @@
+
+#congratsMsg
+{
+    white-space: nowrap;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#productContainer
+{
+    padding: 0px;
+    width: 600px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.productImage
+{
+    border-radius: 8px;
+    max-width: 65%;
+    max-height: 65%;
+}
+
+#imageTitle
+{
+    font-size: 25px;
+    margin: 5px;
+}
+
+#imageDescription
+{
+    font-size: 18px;
+    white-space: wrap;
+}
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Payment Process</title>
+        <link rel="icon" type="image/x-icon" href="Data/Catalog favicon.png">
+        <link rel="stylesheet" href="Utils/generalStyling.css">
+        <link rel="stylesheet" href="Payment/paymentStyling.css">
+    </head>
+    <body>
+        <h3 class="stepNumber">Step 2: Payment process</h3>
+        <h1 class="MainTitle">Payment Details</h1>
+
+        <div id="paymentForm">
+            <div id="productDetailsContainer">
+                <h3 class="productDetails">Payment amount:</h3>
+                <h3 id="paymentAmount" class="productDetails">Error!</h3>
+            </div>
+
+            <form id="creditCardForm">
+                <label for="CardHolderName">Name On Card:</label> 
+                <input type="text" id="CardHolderName" placeholder="Enter card holder name" required>
+                <div id="error_cardHolderName" class="errorMessage"></div>
+
+                <label for="cardNumber">Card Number:</label>
+                <input type="text" id="cardNumber" placeholder="Enter card number" required>
+                <div id="error_cardNumber" class="errorMessage"></div>
+    
+                <label for="expiryDate">Expiration Date:</label>
+                <input type="text" id="expiryDate" placeholder="Enter expiration date: MM\YY" required>
+                <div id="error_expirtyDate" class="errorMessage"></div>
+    
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" placeholder="Enter cvv" required>
+                <div id="error_cvv" class="errorMessage"></div>
+    
+                <button type="submit">Confirm and Continue</button>
+            </form>
+        </div>
+        <script type="module" src="Payment/processPaymentScript.js"></script>
+
+    </body>
+</html>
