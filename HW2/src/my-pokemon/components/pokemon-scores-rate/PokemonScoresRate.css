@@ -1,0 +1,47 @@
+.details-statistics-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    width: fit-content;
+    min-width: 100%;
+    max-height: fit-content;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: #dcf5e3;
+}
+
+.details-stat-item {
+    min-width: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    font-size: 18px;
+}
+
+.details-stat-item h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.details-stat-item h3.titel {
+    font-weight:lighter;
+    margin-right: 10px; /* Add space between title and value */
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.total-percentage {
+    font-weight:bold;
+    font-size: 20px;
+    white-space: nowrap;
+    margin: 0px;
+}
+
+.total-percentage h3 {
+    margin: 10px;
+}

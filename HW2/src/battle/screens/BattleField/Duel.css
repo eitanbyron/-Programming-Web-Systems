@@ -1,0 +1,118 @@
+.opponet-fighter
+{
+
+  display: flex;
+  align-items: center;
+  direction: ltr;
+}
+
+.opponet-entity
+{
+  margin-right: 50px;
+}
+
+.my-fighter {
+    display: flex;
+    align-items: center;
+    direction: rtl;
+}
+
+.my-entity
+{
+  margin-left: 50px;
+}
+
+.changing-box {
+  height: 300px;
+  display: flex;
+  justify-Content: center; 
+  align-Items: center;
+}
+
+
+.opp-moves, .my-moves {
+  display: grid;
+  grid-template-areas: 
+    "move-0 . move-1"
+    ". . ."
+    "move-2 . move-3";
+  gap: 10px;
+  border: 2px solid;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.opp-moves
+{
+  border-color: red;
+}
+
+.move-0, .oppmove-0 {
+  grid-area: move-0;
+}
+
+
+.move-1, .oppmove-1 {
+  grid-area: move-1;
+}
+
+.move-2, .oppmove-2 {
+  grid-area: move-2;
+}
+
+.move-3, .oppmove-3 {
+  grid-area: move-3;
+}
+
+button {
+  background-color: transparent; 
+}
+
+
+.move-0:hover, .move-1:hover, .move-2:hover, .move-3:hover {
+  background-color: #d3d3d3; 
+}
+.max-power:hover {
+  background-color: #90ee90;
+}
+
+.oppmove-0, .oppmove-1, .oppmove-2, .oppmove-3 {
+  border: transparent;
+  cursor: not-allowed;
+}
+
+.move-0:disabled, .move-1:disabled, .move-2:disabled, .move-3:disabled {
+  border: transparent;
+  background-color: transparent;
+  cursor: default;
+}
+
+.opponet-pokemons
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.o-image
+{
+    width: 165px; /* Set the desired width of the frame */
+    height: 165px; /* Set the desired height of the frame */
+    clip-path: circle(50%); /* Create a circular shape using clip-path */
+    overflow: hidden; /* Ensure the content is within the circular frame */
+    position: relative; /* Add position: relative to establish a positioning context for the pseudo-element */
+    /* border: 5px solid rgb(235, 214, 217); Set a transparent border initially */
+    border-radius: 50%; /*Create a circular shape for the border*/
+    background-color: rgb(236, 232, 233);
+}
+
+.o-image img {
+    width: 90%; /* Make the image fill the circular frame */
+    height: 100%; /* Make the image fill the circular frame */
+    object-fit: contain; /* Maintain aspect ratio and fit within the frame */
+    object-position: center;
+}
+
+
+

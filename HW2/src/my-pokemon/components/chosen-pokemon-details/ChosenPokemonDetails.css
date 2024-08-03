@@ -1,0 +1,78 @@
+
+.details-headline h2{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.detalis
+{
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start;
+    justify-content: flex-start; */
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0px;
+    /* border: 1px solid #000; */
+    /* border-radius: 10px; */
+    /* background-color: #f0f0f0; */
+}
+
+.details-properties-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: fit-content;
+    min-width: 100%;
+    padding: 10px;
+}
+
+.details-text-item {
+    min-width: 100px;
+    display: flex;
+    flex-direction: row;
+    white-space: nowrap;
+    font-size: 18px;
+}
+
+.details-text-item h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.details-text-item h3.title {
+    font-weight:lighter;
+    margin-right: 10px; /* Add space between title and value */
+}
+
+.stats-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: fit-content;
+    min-width: 100%;
+    padding: 10px;
+}
+
+.stats-item
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: fit-content;
+    min-width: 100%;
+}
+
+.stat-item title
+{
+    font-size: 18px;
+    font-weight: lighter;
+    margin-right: 10px;
+}

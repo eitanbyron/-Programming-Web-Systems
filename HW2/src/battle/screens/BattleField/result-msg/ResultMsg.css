@@ -1,0 +1,33 @@
+.res-msg-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border: 2px solid #CDA2D8; */
+    /* border-radius: 10px; */
+    padding: 20px;
+    min-width: 500px;
+    min-height: 100px;
+    width: max-content;
+}
+
+.res-msg
+{
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.progress-buttons
+{
+    /* font-weight: bold; */
+}
+
+.progress-buttons:hover
+{
+    font-weight: bold;
+    /* background-color: #CDA2D8; 
+    color: white;*/
+    background-color: #f2ff00;
+}

@@ -1,0 +1,7 @@
+.my-pokemon-list-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 150px;
+}

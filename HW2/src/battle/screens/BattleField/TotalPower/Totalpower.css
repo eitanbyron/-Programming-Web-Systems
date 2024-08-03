@@ -1,0 +1,39 @@
+.res-container
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px dotted #CDA2D8;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.res {
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px dotted #CDA2D8;
+    border-radius: 10px; */
+    padding: 10px;
+    width: 100%;
+  }
+  
+  .left-side, .right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+  }
+
+.right-side{
+    writing-mode: vertical-rl;
+    font-size: 3vh;
+}
+
+.progress-buttons
+{
+    max-width: max-content;
+    border: 2px solid #000000;
+}
